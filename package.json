@@ -1,0 +1,12 @@
+{
+  "name": "minimal-todo-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A standalone vanilla JavaScript todo fixture for browser testing.",
+  "scripts": {
+    "test:e2e": "node node_modules/@playwright/test/cli.js test --config playwright.config.ts"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.55.0"
+  }
+}
