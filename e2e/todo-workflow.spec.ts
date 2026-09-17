@@ -25,7 +25,9 @@ test("supports deterministic creation, completion, deletion, and empty state", a
   await input.fill("Walk dog");
   await input.press("Enter");
   await expect(page.getByTestId("todo-item-2")).toBeVisible();
+  await expect(page.getByTestId("todo-title-2")).toHaveText("Walk dog");
   await expect(page.getByTestId("todo-list").locator("li")).toHaveCount(2);
+  await expect(page.getByTestId("todo-list").locator("li")).toEvaluateAll((items) => items.map((item) => item.dataset.testid), ["todo-item-1", "todo-item-2"]);
 
   await input.fill("   ");
   await page.getByTestId("add-button").click();
