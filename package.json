@@ -4,6 +4,7 @@
   "private": true,
   "description": "A standalone vanilla JavaScript todo fixture for browser testing.",
   "scripts": {
+    "test": "node node_modules/@playwright/test/cli.js test --config playwright.config.ts",
     "test:e2e": "node node_modules/@playwright/test/cli.js test --config playwright.config.ts"
   },
   "devDependencies": {

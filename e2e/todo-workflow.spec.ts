@@ -46,5 +46,6 @@ test("supports deterministic creation, completion, deletion, and empty state", a
   await page.getByTestId("todo-delete-2").click();
   await expect(page.getByTestId("todo-list")).toBeEmpty();
   await expect(page.getByTestId("empty-state")).toBeVisible();
+  await page.screenshot({ path: "test-results/todo-workflow.png", fullPage: true });
   await expect(browserProblems).toEqual([]);
 });
