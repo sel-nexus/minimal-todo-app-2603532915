@@ -1,0 +1,248 @@
+{
+  "nodes": [
+    {
+      "id": "playwright_tmp_playwright_transform_cache_1000_72_playwrightconfig_72a850a9d725ee20e6caa7f029842671096b594e",
+      "label": "playwrightconfig_72a850a9d725ee20e6caa7f029842671096b594e.js",
+      "file_type": "code",
+      "source_file": ".playwright-tmp/playwright-transform-cache-1000/72/playwrightconfig_72a850a9d725ee20e6caa7f029842671096b594e.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 6
+    },
+    {
+      "id": "playwright_tmp_playwright_transform_cache_1000_b2_todoworkflowspec_b2b0584b69f9b965533cc3be84d6d4d072b5ab92",
+      "label": "todoworkflowspec_b2b0584b69f9b965533cc3be84d6d4d072b5ab92.js",
+      "file_type": "code",
+      "source_file": ".playwright-tmp/playwright-transform-cache-1000/b2/todoworkflowspec_b2b0584b69f9b965533cc3be84d6d4d072b5ab92.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 7
+    },
+    {
+      "id": "e2e_todo_workflow_spec",
+      "label": "todo-workflow.spec.ts",
+      "file_type": "code",
+      "source_file": "e2e/todo-workflow.spec.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 4
+    },
+    {
+      "id": "package",
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 0
+    },
+    {
+      "id": "package_name",
+      "label": "name",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "community": 0
+    },
+    {
+      "id": "package_version",
+      "label": "version",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "community": 0
+    },
+    {
+      "id": "package_private",
+      "label": "private",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "_origin": "ast",
+      "community": 0
+    },
+    {
+      "id": "package_description",
+      "label": "description",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "_origin": "ast",
+      "community": 0
+    },
+    {
+      "id": "package_scripts",
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "_origin": "ast",
+      "community": 0
+    },
+    {
+      "id": "package_scripts_test",
+      "label": "test",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_scripts_test_e2e",
+      "label": "test:e2e",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "_origin": "ast",
+      "community": 0
+    },
+    {
+      "id": "package_devdependencies",
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L10",
+      "_origin": "ast",
+      "community": 2
+    },
+    {
+      "id": "package_devdependencies_playwright_test",
+      "label": "@playwright/test",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "_origin": "ast",
+      "community": 2
+    },
+    {
+      "id": "playwright_test",
+      "label": "@playwright/test",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "_origin": "ast",
+      "community": 2
+    },
+    {
+      "id": "playwright_config",
+      "label": "playwright.config.ts",
+      "file_type": "code",
+      "source_file": "playwright.config.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 5
+    }
+  ],
+  "links": [
+    {
+      "source": "package",
+      "target": "package_name",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package",
+      "target": "package_version",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package",
+      "target": "package_private",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package",
+      "target": "package_description",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package",
+      "target": "package_scripts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_scripts",
+      "target": "package_scripts_test",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_scripts",
+      "target": "package_scripts_test_e2e",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package",
+      "target": "package_devdependencies",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_playwright_test",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_devdependencies_playwright_test",
+      "target": "playwright_test",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    }
+  ],
+  "metadata": {
+    "built_at": "2026-09-17T04:03:10.813854+00:00",
+    "version": "graph_update-v1",
+    "codebase_root": "C:\\artifacts-v2\\T0132PcJVCRTV000117092603532915\\developer",
+    "force": true,
+    "files_scanned": 6
+  }
+}
