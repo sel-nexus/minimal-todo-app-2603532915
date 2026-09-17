@@ -1,248 +1,265 @@
 {
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
   "nodes": [
     {
-      "id": "playwright_tmp_playwright_transform_cache_1000_72_playwrightconfig_72a850a9d725ee20e6caa7f029842671096b594e",
-      "label": "playwrightconfig_72a850a9d725ee20e6caa7f029842671096b594e.js",
-      "file_type": "code",
-      "source_file": ".playwright-tmp/playwright-transform-cache-1000/72/playwrightconfig_72a850a9d725ee20e6caa7f029842671096b594e.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 6
-    },
-    {
-      "id": "playwright_tmp_playwright_transform_cache_1000_b2_todoworkflowspec_b2b0584b69f9b965533cc3be84d6d4d072b5ab92",
-      "label": "todoworkflowspec_b2b0584b69f9b965533cc3be84d6d4d072b5ab92.js",
-      "file_type": "code",
-      "source_file": ".playwright-tmp/playwright-transform-cache-1000/b2/todoworkflowspec_b2b0584b69f9b965533cc3be84d6d4d072b5ab92.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 7
-    },
-    {
-      "id": "e2e_todo_workflow_spec",
       "label": "todo-workflow.spec.ts",
       "file_type": "code",
       "source_file": "e2e/todo-workflow.spec.ts",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 4
+      "community": 3,
+      "id": "e2e_todo_workflow_spec",
+      "community_name": "Todo Workflow Tests",
+      "norm_label": "todo-workflow.spec.ts"
     },
     {
-      "id": "package",
       "label": "package.json",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0
+      "community": 0,
+      "id": "package",
+      "community_name": "Package Metadata",
+      "norm_label": "package.json"
     },
     {
-      "id": "package_name",
       "label": "name",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L2",
       "_origin": "ast",
-      "community": 0
+      "community": 0,
+      "id": "package_name",
+      "community_name": "Package Metadata",
+      "norm_label": "name"
     },
     {
-      "id": "package_version",
       "label": "version",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L3",
       "_origin": "ast",
-      "community": 0
+      "community": 0,
+      "id": "package_version",
+      "community_name": "Package Metadata",
+      "norm_label": "version"
     },
     {
-      "id": "package_private",
       "label": "private",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 0
+      "community": 0,
+      "id": "package_private",
+      "community_name": "Package Metadata",
+      "norm_label": "private"
     },
     {
-      "id": "package_description",
       "label": "description",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 0
+      "community": 0,
+      "id": "package_description",
+      "community_name": "Package Metadata",
+      "norm_label": "description"
     },
     {
-      "id": "package_scripts",
       "label": "scripts",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 0
+      "community": 2,
+      "id": "package_scripts",
+      "community_name": "Test Scripts",
+      "norm_label": "scripts"
     },
     {
-      "id": "package_scripts_test",
       "label": "test",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L7",
-      "_origin": "ast"
+      "_origin": "ast",
+      "id": "package_scripts_test",
+      "community": 2,
+      "community_name": "Test Scripts",
+      "norm_label": "test"
     },
     {
-      "id": "package_scripts_test_e2e",
       "label": "test:e2e",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L8",
       "_origin": "ast",
-      "community": 0
+      "community": 2,
+      "id": "package_scripts_test_e2e",
+      "community_name": "Test Scripts",
+      "norm_label": "test:e2e"
     },
     {
-      "id": "package_devdependencies",
       "label": "devDependencies",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L10",
       "_origin": "ast",
-      "community": 2
+      "community": 1,
+      "id": "package_devdependencies",
+      "community_name": "Playwright Test Dependency",
+      "norm_label": "devdependencies"
     },
     {
-      "id": "package_devdependencies_playwright_test",
       "label": "@playwright/test",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L11",
       "_origin": "ast",
-      "community": 2
+      "community": 1,
+      "id": "package_devdependencies_playwright_test",
+      "community_name": "Playwright Test Dependency",
+      "norm_label": "@playwright/test"
     },
     {
-      "id": "playwright_test",
       "label": "@playwright/test",
       "file_type": "concept",
       "source_file": "package.json",
       "source_location": "L11",
       "_origin": "ast",
-      "community": 2
+      "community": 1,
+      "id": "playwright_test",
+      "community_name": "Playwright Test Dependency",
+      "norm_label": "@playwright/test"
     },
     {
-      "id": "playwright_config",
       "label": "playwright.config.ts",
       "file_type": "code",
       "source_file": "playwright.config.ts",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 5
+      "community": 4,
+      "id": "playwright_config",
+      "community_name": "Playwright Configuration",
+      "norm_label": "playwright.config.ts"
     }
   ],
   "links": [
     {
-      "source": "package",
-      "target": "package_name",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L2",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "package",
-      "target": "package_version",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L3",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "package",
-      "target": "package_private",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L4",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "package",
-      "target": "package_description",
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "package.json",
       "source_location": "L5",
       "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
+      "_origin": "ast",
       "source": "package",
-      "target": "package_scripts",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L6",
-      "weight": 1.0,
-      "_origin": "ast"
+      "target": "package_description",
+      "confidence_score": 1.0
     },
     {
-      "source": "package_scripts",
-      "target": "package_scripts_test",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L7",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "package_scripts",
-      "target": "package_scripts_test_e2e",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L8",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "package",
-      "target": "package_devdependencies",
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "package.json",
       "source_location": "L10",
       "weight": 1.0,
-      "_origin": "ast"
+      "_origin": "ast",
+      "source": "package",
+      "target": "package_devdependencies",
+      "confidence_score": 1.0
     },
     {
-      "source": "package_devdependencies",
-      "target": "package_devdependencies_playwright_test",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "package",
+      "target": "package_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "package",
+      "target": "package_private",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "package",
+      "target": "package_scripts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "package",
+      "target": "package_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "package_scripts",
+      "target": "package_scripts_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "package_scripts",
+      "target": "package_scripts_test_e2e",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "package.json",
       "source_location": "L11",
       "weight": 1.0,
-      "_origin": "ast"
+      "_origin": "ast",
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_playwright_test",
+      "confidence_score": 1.0
     },
     {
-      "source": "package_devdependencies_playwright_test",
-      "target": "playwright_test",
       "relation": "imports",
       "confidence": "EXTRACTED",
       "source_file": "package.json",
       "source_location": "L11",
       "weight": 1.0,
       "context": "import",
-      "_origin": "ast"
+      "_origin": "ast",
+      "source": "package_devdependencies_playwright_test",
+      "target": "playwright_test",
+      "confidence_score": 1.0
     }
   ],
-  "metadata": {
-    "built_at": "2026-09-17T04:03:10.813854+00:00",
-    "version": "graph_update-v1",
-    "codebase_root": "C:\\artifacts-v2\\T0132PcJVCRTV000117092603532915\\developer",
-    "force": true,
-    "files_scanned": 6
-  }
+  "hyperedges": [],
+  "built_at_commit": "52f9d8b966c2060e059ac3f889447a19829dfc6f"
 }
